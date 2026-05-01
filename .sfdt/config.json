@@ -1,0 +1,19 @@
+{
+  "projectName": "Synthetic Spark",
+  "defaultOrg": "",
+  "deployment": {
+    "coverageThreshold": 75,
+    "backupBeforeRollback": true,
+    "preflight": {
+      "enforceTests": true,
+      "enforceBranchNaming": false,
+      "enforceChangelog": true
+    }
+  },
+  "features": {
+    "ai": false
+  },
+  "logDir": "",
+  "manifestDir": "manifest/release",
+  "releaseNotesDir": "release-notes"
+}
