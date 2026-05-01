@@ -2,7 +2,7 @@
   "projectName": "Synthetic Spark",
   "defaultOrg": "",
   "deployment": {
-    "coverageThreshold": 75,
+    "coverageThreshold": 85,
     "backupBeforeRollback": true,
     "preflight": {
       "enforceTests": true,
