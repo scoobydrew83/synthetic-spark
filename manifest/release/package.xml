@@ -5,7 +5,7 @@
         <members>SyntheticAccountServiceTest</members>
         <members>SyntheticContactHelper</members>
         <members>SyntheticContactHelperTest</members>
-        <name>ApexClass</name>
+    <name>ApexClass</name>
     </types>
     <types>
         <members>Synthetic_Widget__c</members>

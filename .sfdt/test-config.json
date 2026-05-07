@@ -1,6 +1,0 @@
-{
-  "testClasses": ["SyntheticAccountServiceTest", "SyntheticContactHelperTest"],
-  "apexClasses": ["SyntheticAccountService", "SyntheticContactHelper"],
-  "coverageThreshold": 85,
-  "testLevel": "RunSpecifiedTests"
-}
