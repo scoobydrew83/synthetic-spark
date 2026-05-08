@@ -1,0 +1,50 @@
+{
+  "projectName": "synthetic-spark",
+  "defaultOrg": "DevHub",
+  "releaseNotesDir": "release-notes",
+  "manifestDir": "manifest/release",
+  "deployment": {
+    "coverageThreshold": 75,
+    "preflight": {
+      "enforceTests": false,
+      "enforceBranchNaming": false,
+      "enforceChangelog": false,
+      "enforceGitClean": true,
+      "enforceSfdxProject": true,
+      "enforceUntrackedFiles": false,
+      "strict": false
+    }
+  },
+  "features": {
+    "ai": true,
+    "notifications": false,
+    "releaseManagement": true
+  },
+  "ai": {
+    "provider": "claude",
+    "model": ""
+  },
+  "plugins": [],
+  "pluginOptions": {
+    "autoDiscover": false
+  },
+  "mcp": {
+    "enabled": true,
+    "salesforce": {
+      "transport": "stdio",
+      "command": "sf",
+      "args": [
+        "mcp",
+        "start"
+      ]
+    }
+  },
+  "pullCache": {
+    "enabled": true,
+    "parallelism": 5,
+    "batchSize": 100,
+    "retrieveTimeoutSeconds": 360
+  },
+  "manifestLayout": "flat",
+  "logRetention": 50
+}

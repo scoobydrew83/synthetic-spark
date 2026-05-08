@@ -1,6 +1,5 @@
 .sfdx/
 .sf/
-.sfdt/
 logs/
 .vscode/
 node_modules/

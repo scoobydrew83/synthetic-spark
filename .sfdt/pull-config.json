@@ -1,0 +1,14 @@
+{
+  "metadataTypes": [
+    "ApexClass",
+    "ApexTrigger",
+    "LightningComponentBundle",
+    "CustomObject",
+    "CustomField",
+    "Layout",
+    "FlexiPage",
+    "PermissionSet",
+    "Flow"
+  ],
+  "targetDir": "force-app/main/default"
+}

@@ -1,0 +1,13 @@
+{
+  "coverageThreshold": 75,
+  "testLevel": "RunLocalTests",
+  "suites": [],
+  "testClasses": [
+    "SyntheticAccountServiceTest",
+    "SyntheticContactHelperTest"
+  ],
+  "apexClasses": [
+    "SyntheticAccountService",
+    "SyntheticContactHelper"
+  ]
+}

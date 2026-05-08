@@ -1,0 +1,10 @@
+{
+  "default": "DevHub",
+  "orgs": [
+    {
+      "alias": "DevHub",
+      "type": "development",
+      "description": "Default development org"
+    }
+  ]
+}
