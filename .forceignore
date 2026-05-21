@@ -1,0 +1,5 @@
+# Standard objects whose default ListViews ship from the platform with
+# names/picklist values that violate Salesforce's own deploy validation,
+# making round-trip (pull -> deploy) impossible. Ignore on retrieve and deploy.
+**/CommSubscriptionChannelType/listViews/**
+**/PaymentGroup/listViews/**
