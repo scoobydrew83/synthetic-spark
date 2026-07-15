@@ -3,3 +3,5 @@
 # making round-trip (pull -> deploy) impossible. Ignore on retrieve and deploy.
 **/CommSubscriptionChannelType/listViews/**
 **/PaymentGroup/listViews/**
+**/jsconfig.json
+**/.eslintrc.json
