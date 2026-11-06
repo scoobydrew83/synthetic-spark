@@ -5,3 +5,7 @@
 **/PaymentGroup/listViews/**
 **/jsconfig.json
 **/.eslintrc.json
+# OutboundEngagementTemplate ships a standard field (TemplateName) that the
+# platform refuses to redeploy ("Could not resolve standard field's name"),
+# breaking the nightly pull -> deploy round trip. The fixture doesn't use it.
+**/OutboundEngagementTemplate/**
